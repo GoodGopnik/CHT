@@ -2,9 +2,15 @@
 
 }
 @media (max-width: 1441px) {
-    .slider-home-img__items .slick-center img {
+    /* .slider-home-img__items .slick-center img {
         transform: scale(1.2);
-    } 
+    }  */
+    .slider-home-img__items .slick-center.slider-home-img__item {
+        height: 266px !important;
+    }
+    .wrapper .slider-home-img__items .prev-arrow {
+        right: 26%;
+    }
 }
 @media (max-width: 1366px) {
 
@@ -18,9 +24,35 @@
     }
 }
 @media (max-width: 1080px) {
-
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__navigations ul {
+        align-items: center;
+    }
+    .footer__navigations {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer__contact {
+        margin-bottom: 20px;
+    }
+    .wrapper .footer__up {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__dev {
+        margin-top: 20px;
+    }
 }
 @media (max-width: 992px) {
+    .header-items__logo img {
+        position: relative !important;
+    }
+    .header-items__logo {
+        margin: 0 auto;
+    }
     .wrapper .navigations ul {
         display: none;
     }
@@ -134,13 +166,67 @@
     .wrapper .navigations-slider .prev-arrow {
         right: 65px;
     }
+    .wrapper .slider-home-img__items .next-arrow {
+        right: 10px;
+    }
+    .wrapper .slider-home-img__items .prev-arrow {
+        right: 45px;
+    }
+    .wrapper .conditions__item {
+        min-height: 460px;
+    }
 }
 @media (max-width: 768px) {
-
+    .wrapper .header__img h2 {
+        font-size: 25px;
+    }
+    .navigations ul.active {
+        width: 50%;
+    }
 }
 @media (max-width: 575px) {
-
+    .wrapper .conditions__title p {
+        font-size: 35px;
+    }
+    .wrapper .conditions__text p {
+        font-size: 14px
+    }
+    .wrapper .latest-news__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .latest-news__title {
+        margin-bottom: 20px;
+    }
+    .latest-news__arrow {
+        margin-top: 20px;
+    }
+    .wrapper .conditions__title h2 {
+        font-size: 20px;
+    }
+    .wrapper .header__img h2 {
+        font-size: 20px;
+    }
+    .wrapper .about__text p {
+        font-size: 20px;
+    }
+    .wrapper .slider-home-img__item {
+       max-width: none;
+    }
+    .navigations ul.active {
+        width: 80%;
+    }
+}
+@media (max-width: 475px) {
+    .wrapper .conditions__title p {
+        font-size: 30px;
+    }
+    .header__img h2::before {
+        display: none;
+    }
 }
 @media (max-width: 390px) {
-
+    .wrapper .navigations a {
+        font-size: 16px;
+    }
 }

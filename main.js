@@ -5,6 +5,20 @@ $('.multiple-items').slick({
     dots: false,
     prevArrow: "<div class='prev-arrow'>",
     nextArrow: "<div class='next-arrow'>",
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 390,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
 });
   $('.conditions-items').slick({
     centerMode: true,
@@ -15,10 +29,26 @@ $('.multiple-items').slick({
     dots: false,
     prevArrow: "<div class='prev-arrow'>",
     nextArrow: "<div class='next-arrow'>",
+    responsive: [
+        {
+          breakpoint: 890,
+          settings: {
+            slidesToShow: 2,
+            centerMode: false,
+          }
+        },
+        {
+          breakpoint: 475,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          }
+        },
+      ]
 });
 $('.home-img-items').slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '0',
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -27,11 +57,26 @@ $('.home-img-items').slick({
     nextArrow: "<div class='next-arrow'>",
     responsive: [
         {
-          breakpoint: 1440,
+          breakpoint: 1441,
           settings: {
-            slidesToShow: 3
+            centerPadding: 0,
+            slidesToShow: 3,
           }
         },
+        {
+            breakpoint: 1200,
+            settings: {
+              centerPadding: 0,
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              centerPadding: 0,
+              slidesToShow: 1,
+            }
+          },
       ]
 });
 $(window).scroll(function(){
@@ -48,6 +93,5 @@ $(window).scroll(function(){
 });
 $(".mob-menu").click(function () {
     $(this).toggleClass("active");
-    // $(".ast-mobile-header-content").toggleClass("open");
     $(".navigations ul").toggleClass("active");
 });
