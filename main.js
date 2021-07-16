@@ -34,3 +34,20 @@ $('.home-img-items').slick({
         },
       ]
 });
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+        $('.footer__up').fadeIn();
+    } else {
+        $('.footer__up').fadeOut();
+    }
+    });
+      
+    $('.footer__up').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 2000);
+    return false;
+});
+$(".mob-menu").click(function () {
+    $(this).toggleClass("active");
+    // $(".ast-mobile-header-content").toggleClass("open");
+    $(".navigations ul").toggleClass("active");
+});

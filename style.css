@@ -25,7 +25,8 @@ body{
     background: url(./img/index/zen.webp)0 0/cover no-repeat;
 }
 .container {
-    max-width: 1085px;
+    max-width: 1075px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 /* -- head -- */
@@ -111,6 +112,9 @@ body{
     margin: 40px 0;
     padding-left: 55px;
     padding-right: 55px;
+}
+.mob-menu {
+    display: none;
 }
 .navigations li {
     list-style: none;
