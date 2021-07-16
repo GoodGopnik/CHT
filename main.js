@@ -94,3 +94,9 @@ $(".mob-menu").click(function () {
     $(this).toggleClass("active");
     $(".navigations ul").toggleClass("active");
 });
+$('#example').buzinaPagination({
+  itemsOnPage: 10,
+  prevnext: true,
+  prevText: "←",
+  nextText: "→" 
+});

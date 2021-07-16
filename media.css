@@ -57,6 +57,13 @@
     }
 }
 @media (max-width: 992px) {
+    .wrapper .news__logo {
+        margin-right: 0;
+    }
+    .news__item {
+        flex-direction: column;
+        align-items: center;
+    }
     .header-items__logo img {
         position: relative !important;
     }
@@ -209,6 +216,9 @@
     }
 }
 @media (max-width: 575px) {
+    .news__text-more {
+        flex-direction: column;
+    }
     .wrapper .conditions__title p {
         font-size: 35px;
     }
