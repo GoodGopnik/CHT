@@ -8,8 +8,14 @@
     .slider-home-img__items .slick-center.slider-home-img__item {
         height: 266px !important;
     }
+    .slider-home-img__items .slick-center.slider-home-img__item img {
+        height: 266px !important;
+    }
     .wrapper .slider-home-img__items .prev-arrow {
         right: 26%;
+    }
+    .wrapper .slider-home-img__item {
+        margin: 0 80px;
     }
 }
 @media (max-width: 1366px) {
@@ -21,6 +27,10 @@
     }
     .wrapper .navigations a {
         font-size: 18px;
+    }
+    .wrapper .slider-home-img__item {
+        margin: 0 0;
+        max-width: none;
     }
 }
 @media (max-width: 1080px) {

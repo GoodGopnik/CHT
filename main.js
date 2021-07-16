@@ -59,7 +59,6 @@ $('.home-img-items').slick({
         {
           breakpoint: 1441,
           settings: {
-            centerPadding: 0,
             slidesToShow: 3,
           }
         },
@@ -71,7 +70,7 @@ $('.home-img-items').slick({
             }
           },
           {
-            breakpoint: 575,
+            breakpoint: 730,
             settings: {
               centerPadding: 0,
               slidesToShow: 1,
