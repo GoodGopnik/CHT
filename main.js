@@ -100,24 +100,33 @@ $(".mob-menu").click(function () {
     $(this).toggleClass("active");
     $(".navigations ul").toggleClass("active");
 });
-$('#example').buzinaPagination({
-  itemsOnPage: 10,
-  prevnext: true,
-  prevText: "←",
-  nextText: "→" 
+$(function(){ 
+  $('#example').buzinaPagination({
+    itemsOnPage: 10,
+    prevnext: true,
+    prevText: "←",
+    nextText: "→" 
+  });
 });
-$('#sale-pag').buzinaPagination({
-  itemsOnPage: 4,
-  prevnext: true,
-  prevText: "←",
-  nextText: "→" 
+
+$(function(){ 
+  $('#sale-pag').buzinaPagination({
+    itemsOnPage: 4,
+    prevnext: true,
+    prevText: "←",
+    nextText: "→" 
+  });
 });
-$('#rent-pag').buzinaPagination({
-  itemsOnPage: 4,
-  prevnext: true,
-  prevText: "←",
-  nextText: "→" 
+
+$(function(){ 
+  $('#rent-pag').buzinaPagination({
+    itemsOnPage: 4,
+    prevnext: true,
+    prevText: "←",
+    nextText: "→" 
+  });
 });
+
 $(".rent-btn").click(function () {
   $(this).addClass("active");
   $(".sale__items-rent").css({'display' : 'block'});
@@ -130,21 +139,3 @@ $(".sale-btn").click(function () {
   $(".sale__items-sale").css({'display' : 'block'});
   $(".rent-btn").removeClass("active");
 });
-
-
-// var teamN = 1;
-// 			$(".team-one").each(function () {
-// 				var imgURL = $(this).find('.t-img').attr('src');
-// 				var name = $(this).find('.name').html();
-// 				var position = $(this).find('.position').html();
-// 				if (1 == teamN) {
-// 					$(this).parent().find('.team-one:last').find('.team-popup-next .p-img').attr('src', imgURL);
-// 					$(this).parent().find('.team-one:last').find('.team-popup-next .p-name').html(name);
-// 					$(this).parent().find('.team-one:last').find('.team-popup-next .p-position').html(position);
-// 				} else {
-// 					$(this).prev().find('.team-popup-next .p-img').attr('src', imgURL);
-// 					$(this).prev().find('.team-popup-next .p-name').html(name);
-// 					$(this).prev().find('.team-popup-next .p-position').html(position);
-// 				}
-// 				teamN++;
-// 			});
