@@ -864,3 +864,20 @@ footer {
 .sale__data-btn img {
     padding-left: 20px;
 }
+.sale__items-sale {
+    display: none;
+}
+.rent-btn.active {
+    background: var(--white) !important;
+    color: var(--blue-dark) !important;
+}
+.sale__items-rent.active {
+    display: block;
+}
+.sale-btn.active {
+    background: var(--white) !important;
+    color: var(--blue-dark) !important;
+}
+.sale__items-sale.active {
+    display: block;
+}
