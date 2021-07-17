@@ -9,6 +9,7 @@ p{padding:0;margin:0;color:var(--white);font-weight:500}
 span{color: var(--white);}
 h2{font-size: 40px; font-family: 'Russo One'; font-weight: 400; color: var(--white); line-height: 48px;}
 button{cursor: pointer;}
+a{text-decoration: none;}
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Russo One', sans-serif;   
@@ -231,7 +232,7 @@ body{
     cursor: pointer;
     cursor: pointer;
     position: absolute;
-    right: 35px;
+    right: 50px;
     bottom: -70px;
 }
 .navigations-slider .next-arrow {
@@ -377,7 +378,7 @@ body{
     content: url('./img/index/arrow_back_24px.png');
     cursor: pointer;
     position: absolute;
-    right: 35px;
+    right: 50px;
     top: -100px;
 }
 /* -- slider-home-img -- */
@@ -445,7 +446,7 @@ body{
     content: url('./img/index/arrow_back_24px.png');
     cursor: pointer;
     position: absolute;
-    right: 25%;
+    right: 26%;
     bottom: -100px;
 }
 /* -- map -- */
