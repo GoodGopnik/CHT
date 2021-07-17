@@ -780,3 +780,87 @@ footer {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
+/* -- sale -- */
+.sale {
+    margin: 75px auto;
+}
+.sale h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sale__cat-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.sale__cat-btn button:first-child {
+    width: 200px;
+    height: 43px;
+    background: none;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    border: 2px solid var(--white);
+    margin-right: 20px;
+}
+.sale__cat-btn button:last-child {
+    width: 200px;
+    height: 43px;
+    background: none;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    border: 2px solid var(--white);
+}
+.sale__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.sale__price-name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.sale__price-name h3 {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--white);
+}
+.sale__text p {
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.sale__text {
+    width: 58%;
+}
+.sale__data-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.sale__data-btn p {
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+}
+.sale__data-btn a {
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sale__data-btn img {
+    padding-left: 20px;
+}

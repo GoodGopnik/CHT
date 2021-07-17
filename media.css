@@ -208,6 +208,16 @@
     }
 }
 @media (max-width: 768px) {
+    .sale__img img {
+        width: 100%;
+    }
+    .wrapper .sale__text {
+        width: 100%;
+    }
+    .sale__item {
+        flex-direction: column;
+        align-items: center;
+    }
     .wrapper .single-post__navigation > h2 {
         font-size: 20px; 
         line-height: 25px;
@@ -307,6 +317,9 @@
     .wrapper .requisites-warning__text p {
         font-size: 22px;
     }
+    .sale__data-btn {
+        flex-direction: column;
+    }
 }
 @media (max-width: 390px) {
     .wrapper .doc__item h3 {
@@ -320,5 +333,8 @@
     }
     .wrapper h2 {
         font-size: 35px;
+    }
+    .wrapper .sale__price-name h3 {
+        font-size: 24px;
     }
 }

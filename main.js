@@ -100,3 +100,9 @@ $('#example').buzinaPagination({
   prevText: "←",
   nextText: "→" 
 });
+$('#sale').buzinaPagination({
+  itemsOnPage: 4,
+  prevnext: true,
+  prevText: "←",
+  nextText: "→" 
+});
