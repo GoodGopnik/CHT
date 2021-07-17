@@ -932,3 +932,9 @@ footer {
     justify-content: space-between;
     margin-top: 18px;
 }
+.slider-home-img__items .slick-center.slider-home-img__item {
+    height: 266px !important;
+}
+.slider-home-img__items .slick-center.slider-home-img__item img {
+    height: 266px !important;
+}

@@ -50,12 +50,18 @@ $('.home-img-items').slick({
     centerMode: true,
     centerPadding: '0',
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     dots: false,
     prevArrow: "<div class='prev-arrow'>",
     nextArrow: "<div class='next-arrow'>",
     responsive: [
+        {
+          breakpoint: 1602,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
         {
           breakpoint: 1441,
           settings: {
