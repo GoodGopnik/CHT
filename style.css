@@ -687,3 +687,62 @@ footer {
 .pagination {
     display: flex;
 }
+/* -- single-post -- */ 
+.single-post {
+    margin: 75px auto;
+}
+.single-post__navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.single-post__navigation a {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--white);
+    text-decoration: none;
+}
+.single-post__navigation > h2 {
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--white);
+}
+.single-post__items {
+    display: flex;
+    justify-content: space-between;
+}
+.single-post__text {
+    width: 53%;
+}
+.single-post__text h2 {
+    font-size: 26px;
+    padding-bottom: 18px;
+}
+.single-post__text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.single-post__navigation-btn a {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.single-post__navigation-btn a:first-child {
+    padding-right: 50px;
+}
+.single-post__navigation-btn a:first-child img {
+    padding-left: 20px;
+    transform: rotate(180deg);
+}
+.single-post__navigation-btn a:last-child img {
+    padding-left: 20px;
+}
