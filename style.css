@@ -881,3 +881,53 @@ footer {
 .sale__items-sale.active {
     display: block;
 }
+/* single-sale */
+.single-sale {
+    margin: 75px auto;
+}
+.single-sale__items {
+    display: flex;
+    justify-content: space-between;
+}
+.single-sale__text h3 {
+    font-family: 'Russo One';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    padding-bottom: 20px;
+}
+.single-sale__text {
+    width: 51%;
+}
+.single-sale__text p {
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.single-sale__text a {
+    font-family: 'Roboto';
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+.single-sale__nav-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.single-sale__nav-btn a:first-child img {
+    transform: rotate(180deg);
+    padding-left: 20px;
+}
+.single-sale__nav-btn a:last-child img {
+    padding-left: 20px;
+}
+.single-sale__litl-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
